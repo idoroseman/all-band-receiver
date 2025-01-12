@@ -620,7 +620,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Audio:AudioJack3_SwitchT"
+		(symbol "Connector_Audio:AudioJack3_SwitchTR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -632,7 +632,7 @@
 					)
 				)
 			)
-			(property "Value" "AudioJack3_SwitchT"
+			(property "Value" "AudioJack3_SwitchTR"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -658,7 +658,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -685,7 +685,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AudioJack3_SwitchT_0_1"
+			(symbol "AudioJack3_SwitchTR_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end -6.35 -7.62)
@@ -695,6 +695,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.254) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -724,6 +736,18 @@
 				(polyline
 					(pts
 						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -769,7 +793,7 @@
 					)
 				)
 			)
-			(symbol "AudioJack3_SwitchT_1_1"
+			(symbol "AudioJack3_SwitchTR_1_1"
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
@@ -781,6 +805,24 @@
 						)
 					)
 					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4134,7 +4176,7 @@
 			(uuid "fb4a78f0-8b6e-459e-8ddf-2516af2f78a5")
 		)
 		(instances
-			(project ""
+			(project "all band receiver"
 				(path "/cfb87c2d-93e9-4044-8e22-776b72077ce5"
 					(reference "BT1")
 					(unit 1)
@@ -4768,7 +4810,7 @@
 			(uuid "57d2bbb4-6cb7-453d-a9a4-7f4dd2c5a935")
 		)
 		(instances
-			(project ""
+			(project "all band receiver"
 				(path "/cfb87c2d-93e9-4044-8e22-776b72077ce5"
 					(reference "JP1")
 					(unit 1)
@@ -4847,31 +4889,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
 		(at 207.01 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6310ff42-7bb7-4345-a5c9-ec71e42c30f5")
+		(fields_autoplaced yes)
+		(uuid "6670a2dc-8d50-4179-8f30-e227e47f2346")
 		(property "Reference" "J1"
-			(at 208.915 95.25 0)
+			(at 214.63 81.9149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "AudioJack3_SwitchT"
-			(at 208.915 92.71 0)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 214.63 84.4549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3525N_Horizontal"
 			(at 207.01 86.36 0)
 			(effects
 				(font
@@ -4889,7 +4934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
 			(at 207.01 86.36 0)
 			(effects
 				(font
@@ -4898,17 +4943,20 @@
 				(hide yes)
 			)
 		)
-		(pin "R"
-			(uuid "a91f85f9-f653-4208-acfb-f25ecd5652c4")
-		)
-		(pin "S"
-			(uuid "b5b41a4b-dd94-4b73-bdf9-1d39f040bdd1")
+		(pin "T"
+			(uuid "9cc7b91c-1b5d-46b4-97d3-721fb3f73e3a")
 		)
 		(pin "TN"
-			(uuid "a164357b-c8ca-4f8f-b8f8-e3fac960770f")
+			(uuid "ed2fc8e4-db51-464f-8f32-b0c68e325981")
 		)
-		(pin "T"
-			(uuid "dac5fbf1-6562-46c3-8d5d-f3cf5ea891c4")
+		(pin "R"
+			(uuid "4cd17e39-1d86-4fb6-891a-30d5d1c3926f")
+		)
+		(pin "RN"
+			(uuid "4c3e89ef-2f31-42d8-9ce1-18cfe8a314c3")
+		)
+		(pin "S"
+			(uuid "dfa77218-f773-4c91-af95-e3dfb6930a4c")
 		)
 		(instances
 			(project "all band receiver"

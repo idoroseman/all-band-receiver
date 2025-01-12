@@ -3,7 +3,7 @@ Dear All-Band Receiver Enthusiasts,
 
 First and foremost, I want to express my heartfelt gratitude for the overwhelming response to my recent article on the all-band receiver. Your interest and enthusiasm have truly exceeded my expectations. When I published the article, I had no idea it would garner such a high turnout of comments and support.
 
-Unfortunately, I wasm't exciting such a turnout, as I only had a couple of spare PCBs on hand. However, I have some great news! I’ll be producing more boards, which will incorporate the future enhancements described in [the article](https://idoroseman.com/how-to-use-an-all-band-receiver-to-listen-to-airplane-pilot-communications-with-ground-controllers/) and will be available for purchase online in a few weeks. 
+Unfortunately, I wasn't expecting such a turnout, as I only had a couple of spare PCBs on hand. However, I have some great news! I’ll be producing more boards, which will incorporate the future enhancements described in [the article](https://idoroseman.com/how-to-use-an-all-band-receiver-to-listen-to-airplane-pilot-communications-with-ground-controllers/) and will be available for purchase online in a few weeks. 
 You’ll have the option to buy the PCB on its own or as part of a kit that includes a 3D-printed enclosure.
 
 For those who prefer a DIY approach, I’ve uploaded all the necessary files to a GitHub repository, so you can get started on your own build. You can find the repository [here](https://github.com/idoroseman/all-band-receiver).
