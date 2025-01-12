@@ -8,7 +8,7 @@ You’ll have the option to buy the PCB on its own or as part of a kit that incl
 
 For those who prefer a DIY approach, I’ve uploaded all the necessary files to a GitHub repository, so you can get started on your own build. You can find the repository [here](https://github.com/idoroseman/all-band-receiver).
 
-I also want to take a moment to thank the original authors who made this project possible: Charles Wenzel and Paul Beaumont (G7VAK). Their foundational work was instrumental in inspiring this project.
+I also want to take a moment to thank the [original authors](https://techlib.com/electronics/allband.htm) who made this project possible: Charles Wenzel and Paul Beaumont (G7VAK). Their foundational work was instrumental in inspiring this project.
 
 If you have any comments, suggestions, or ideas, please don’t hesitate to reach out. I’d love to hear your feedback and thoughts. You can email me at ido.roseman@gmail.com.
 
