@@ -2190,16 +2190,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1294?qs=1rIBfDHV7icxIOOxZGnXMA%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
 			(property "Manufacturer_Name" "Keystone Electronics"
 				(at 16.51 -694.92 0)
 				(effects
@@ -3175,7 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 83.82) (xy 129.54 83.82)
+			(xy 119.38 83.82) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3595,6 +3585,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 83.82) (xy 105.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d709021e-100c-4197-99f0-2c822fa4e299")
+	)
+	(wire
+		(pts
 			(xy 201.93 101.6) (xy 201.93 102.87)
 		)
 		(stroke
@@ -3844,6 +3844,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "P100ACT-ND"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0805FR-7W100RL "
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17408"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38e4cd9d-7a27-4d69-9d50-0521ed0f0ef4")
 		)
@@ -3914,6 +3941,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "RMCF0805JT10R0CT-ND"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0805JR-0710RL "
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b533c54-00ee-4e19-97de-83d17978d0ce")
 		)
@@ -3934,7 +3988,7 @@
 		(at 68.58 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3976,6 +4030,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 68.58 101.6 0)
 			(effects
 				(font
@@ -4139,16 +4211,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1294?qs=1rIBfDHV7icxIOOxZGnXMA%3D%3D"
-			(at 129.54 701.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Keystone Electronics"
 			(at 129.54 801.6 0)
 			(effects
@@ -4166,6 +4228,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "36-1294-ND"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4239,6 +4328,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "P10KACT-ND"
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805-10K-E3 "
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01bd0604-6ace-4b2c-b9f4-9edada273d57")
 		)
@@ -4259,7 +4375,7 @@
 		(at 74.93 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4301,6 +4417,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 74.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 74.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 74.93 114.3 0)
 			(effects
 				(font
@@ -4368,6 +4502,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "P10MACT-ND"
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-0710ML "
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114525"
 			(at 82.55 90.17 0)
 			(effects
 				(font
@@ -4446,6 +4607,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "118-CE201210-R27JCT-ND"
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "70-IMC0805ERR27J01 "
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C108271"
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89e2934b-f95d-463d-b776-9463a4ec4701")
 		)
@@ -4514,6 +4702,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "LM386MX-1/NOPBCT-ND"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "926-LM386MX-1/NOPB "
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23573"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2590aea-b54f-491b-9ec0-cb32c913034b")
 		)
@@ -4552,7 +4767,7 @@
 		(at 87.63 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4594,6 +4809,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 87.63 83.82 0)
 			(effects
 				(font
@@ -4659,6 +4892,33 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "MH2029-070YCT-ND"
+			(at 190.5 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "70-ILBB0805ER110V "
+			(at 190.5 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1017"
 			(at 190.5 86.36 0)
 			(effects
 				(font
@@ -4803,6 +5063,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3384bf5-6e04-47d4-9b6b-7b32a1baba41")
 		)
@@ -4873,6 +5151,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "P100KACT-ND"
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0805FX-1003ELF "
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C149504"
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6121e117-d2d3-4f6a-bd54-213a998bd7cd")
 		)
@@ -4907,7 +5212,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AudioJack3_SwitchTR"
+		(property "Value" "CUI_SJ1-3525N"
 			(at 214.63 84.4549 0)
 			(effects
 				(font
@@ -4935,6 +5240,33 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "SJ1-3525NG"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-SJ1-3525NG-GR "
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 207.01 86.36 0)
 			(effects
 				(font
@@ -5022,6 +5354,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "A126346CT-ND"
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0805FX-1201ELF "
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17379"
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c77fcee-a457-4a4d-9081-5cbe1254912e")
 		)
@@ -5082,6 +5441,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "399-C0805C102K5RACTUCT-ND"
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B102KBANNND "
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C46653"
 			(at 76.2 101.6 0)
 			(effects
 				(font
@@ -5160,6 +5546,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "399-C0805C101J5GACTUCT-ND"
+			(at 53.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0805C101K1HACTU "
+			(at 53.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1790"
+			(at 53.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c9ce922-ba6a-4ef0-a43c-fec693fde9e7")
 		)
@@ -5180,7 +5593,7 @@
 		(at 87.63 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5222,6 +5635,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 87.63 101.6 0)
 			(effects
 				(font
@@ -5295,6 +5726,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "P10KACT-ND"
+			(at 139.7 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805-10K-E3 "
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "448d2f69-2b12-4e30-b9d8-fbff3d3a891d")
 		)
@@ -5329,7 +5787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "P091S-QC15BR"
 			(at 121.92 99.06 90)
 			(effects
 				(font
@@ -5357,6 +5815,33 @@
 			)
 		)
 		(property "Description" "THroughhole Potentiometers with switch"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "987-1284-ND"
+			(at 123.19 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "858-P091SFC20BR10K "
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17464898"
 			(at 123.19 99.06 0)
 			(effects
 				(font
@@ -5436,6 +5921,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "399-C0805C473K5RACTUCT-ND"
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "791-0805B473J500CT "
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C53134"
 			(at 167.64 104.14 0)
 			(effects
 				(font
@@ -5572,6 +6084,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "399-C0805C102K5RACTUCT-ND"
+			(at 105.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B102KBANNND "
+			(at 105.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C46653"
 			(at 105.41 90.17 0)
 			(effects
 				(font
@@ -5732,9 +6271,9 @@
 		(at 104.14 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a3a0a6f4-d551-4665-be16-413787e24c49")
 		(property "Reference" "J3"
 			(at 104.775 114.3 0)
@@ -5771,6 +6310,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 104.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 104.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 104.14 109.22 0)
 			(effects
 				(font
@@ -5849,6 +6406,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "P10MACT-ND"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-0710ML "
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114525"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43de04bd-cc79-401d-b5ae-5b17b79dc015")
 		)
@@ -5919,6 +6503,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "732-6401-1-ND"
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-865060640001 "
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C263972"
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80b4dd06-e238-45c7-9e34-010cde8ed607")
 		)
@@ -5939,7 +6550,7 @@
 		(at 53.34 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5962,7 +6573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
 			(at 53.34 80.01 0)
 			(effects
 				(font
@@ -5981,6 +6592,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 53.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 53.34 80.01 0)
 			(effects
 				(font
@@ -6122,6 +6751,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "311-1133-1-ND"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "791-0805N472J500CT "
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1744"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "461a309e-1302-4651-9cd1-ab0aa8b3c1bd")
 		)
@@ -6192,6 +6848,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "587-1300-1-ND"
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21A106KQFNFNE "
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0cb073e8-9efd-49b8-8484-b6a33c2ebef3")
 		)
@@ -6252,6 +6935,33 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "497-5558-1-ND"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-BAT41ZFILM "
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C222251"
 			(at 64.77 101.6 0)
 			(effects
 				(font
@@ -6330,6 +7040,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" "4786-MMBT4401CT-ND"
+			(at 95.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "637-MMBT4401 "
+			(at 95.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C31776"
+			(at 95.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe9e0a10-dddf-4aeb-aa2a-3ec3946e3cc7")
 		)
@@ -6350,7 +7087,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 83.82 90)
+		(at 115.57 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6359,7 +7096,7 @@
 		(fields_autoplaced yes)
 		(uuid "e83e92ab-ea4a-4ab7-ab98-a32a62d73d4d")
 		(property "Reference" "C4"
-			(at 109.22 76.2 90)
+			(at 115.57 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,7 +7104,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 109.22 78.74 90)
+			(at 115.57 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +7112,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 113.03 82.8548 0)
+			(at 119.38 82.8548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +7121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 83.82 0)
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +7130,34 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 83.82 0)
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "311-1140-1-ND"
+			(at 115.57 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B104MACNNNC "
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28233"
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,6 +7233,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa042a24-1586-4f51-ad97-891caa5d4387")
 		)
@@ -6529,6 +7311,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "478-APA0608221M010RCT-ND"
+			(at 177.8 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "140-VZL221M1CTR-0607"
+			(at 177.8 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3345"
 			(at 177.8 86.36 0)
 			(effects
 				(font

@@ -1,9 +1,9 @@
 w=1.5;
 
 // cavity
-cx = 31;
-cy = 22;
-cz = 82;
+cx = 30;
+cy = 18;
+cz = 73;
 
 module body(h){
     difference(){
@@ -28,14 +28,15 @@ module batt_9v(){
 
 }
 
+// main
 difference(){
     body(h=cz+w);
     
     // volume knob
-    translate([w+5, w+10, 0]) cylinder(h=w+1, d=7+2); 
+    translate([w+6, w+6, 0]) cylinder(h=w+1, d=7+1); 
 
     // phones jack
-    translate([w+5+16.75, w+10-5, 0]) cylinder(h=w+1, d=5+2); 
+    translate([w+6+16.75, w+10, 0]) cylinder(h=w+1, d=5+2); 
  
     
     // cover inserts
@@ -43,12 +44,13 @@ difference(){
         translate([i, (cy+2*w)/2, cz-10]) cylinder(d=5, h=20);
     
     // text
-    translate([10, 0.5, cz-21]) rotate([90, -90, 0]) linear_extrude(1) text("4X6UB", size=5);
-    translate([cy, 0.5, 5.5]) rotate([90, -90, 0]) linear_extrude(1) text("All Band", size=5);
-    translate([cy+6, 0.5, 5]) rotate([90, -90, 0]) linear_extrude(1) text("Receiver", size=5);
+    // translate([10, 0.5, cz-21]) rotate([90, -90, 0]) linear_extrude(1) text("4X6UB", size=5);
+    translate([cx-7, 0.5, 5.5]) rotate([90, -90, 0]) linear_extrude(1) text("All Band", size=5);
+    translate([cx-1, 0.5, 5]) rotate([90, -90, 0]) linear_extrude(1) text("Receiver", size=5);
     
 }
 
+// cover
 translate([0, cy+2*w+5, 0]) difference() {
     body(10);
 

@@ -2,6 +2,7 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 output/
+gerber/
 
 # Temporary files
 *.000
